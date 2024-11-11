@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('public/fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Balford';
+    src: url('public/fonts/Balford.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #22443a;
+    color: #ece8da;
+    font-size: 1.1rem;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+    align-items: end;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: 'Balford', sans-serif;
+    color: #e3e55a;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a:hover {
+    color: #e3e55a;
+}
+
+/* main */
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-entete, .img-entete {
+    width: 50%;
+}
+
+.text-entete {
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.img-entete {
+    display: flex;
+    justify-content: center;
+}
+
+.img-entete img {
+    width: 25rem;
+}
